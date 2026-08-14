@@ -1,23 +1,957 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Home</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <!--
-      Need a visual blank slate?
-      Remove all code in `styles.css`!
-    -->
-    <link rel="stylesheet" href="styles.css" />
-    <script type="module" src="script.js"></script>
-  </head>
-  <body>
-    <nav>
-      <a href="/" aria-current="page">Home</a>
-      <a href="/page2.html">Other page</a>
-    </nav>
-    <main>
-      <h1>Home page</h1>
-    </main>
-  </body>
-</html>
+
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": "https://auto.reliabledone.com/ioniq9-calculator#webpage",
+        "url": "https://auto.reliabledone.com/ioniq9-calculator",
+        "name": "2026년형 현대 아이오닉9 가격 및 보조금 실구매가 모의견적 가이드",
+        "description": "현대자동차의 플래그십 전기 SUV 아이오닉9의 트림별 출고 가격, 국가 보조금, 지자체 보조금 혜택 및 실시간 모의 견적 시스템을 제공합니다."
+      },
+      {
+        "@type": "Product",
+        "name": "현대 아이오닉9",
+        "image": "https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg",
+        "description": "2026년형 현대자동차의 E-GMP 플랫폼 기반 3열 풀사이즈 대형 전기 SUV, 아이오닉9",
+        "brand": {
+          "@type": "Brand",
+          "name": "현대자동차"
+        },
+        "offers": {
+          "@type": "AggregateOffer",
+          "lowPrice": "67150000",
+          "highPrice": "83640000",
+          "priceCurrency": "KRW",
+          "offerCount": "6"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "2026년 기준 아이오닉9의 실구매 가격은 평균적으로 얼마인가요?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "아이오닉9의 세제 혜택 후 기본 출고가는 익스클루시브 트림 기준 약 6,715만 원부터 시작합니다. 여기에 2026년도 기준 국고 보조금 약 274만 원과 거주하시는 지자체별 보조금(서울 기준 약 82만 원, 전남 등 일부 지방 기준 최대 800만~1,000만 원)을 차감하고, 전기차 취등록세 감면 혜택인 140만 원을 적용하여 계산하면 실구매가는 대략 6,000만 원대 중후반에서 7,000만 원대 초반으로 안착하게 됩니다."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "아이오닉9 장기렌트와 운용 리스의 장단점은 무엇인가요?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "장기렌트의 큰 장점은 초기 취등록세와 매년 나가는 자동차세, 보험료가 월 요금에 모두 포함되어 있어 자산 관리의 편의성이 높고 하, 허, 호 번호판을 사용한다는 점입니다. 반면 운용 리스는 본인의 개인 자동차 보험 경력을 그대로 유지할 수 있고 일반 번호판을 적용할 수 있다는 장점이 있습니다. 두 상품 모두 개인사업자나 법인사업자 가입 시 리스료나 렌트 요금 전액을 손비 처리하여 강력한 세금 절감 혜택을 볼 수 있다는 공통점이 있습니다."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "아이오닉9 전기차 보조금 신청 절차는 어떻게 되나요?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "전기차 보조금은 개인이 직접 관공서에 방문할 필요 없이, 현대자동차 대리점이나 전문 장기렌트/리스 업체를 통해 차량 계약을 진행하면서 함께 대리 신청하게 됩니다. 지자체별로 보조금 예산이 조기 소진될 우려가 크므로 신속한 출고 타이밍을 잡기 위해서는 선제적으로 사전 심사 및 신청을 마무리 짓는 방법이 권장됩니다."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, dialog, figure, footer, header, main, menu, nav, section, input, select, textarea, button {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    :root {
+      --primary: #1e293b;
+      --secondary: #0f172a;
+      --accent: #0d9488;
+      --accent-light: #2dd4bf;
+      --bg-main: #f8fafc;
+      --bg-card: #ffffff;
+      --border-color: #e2e8f0;
+      --text-main: #334155;
+      --text-dark: #0f172a;
+      --text-muted: #64748b;
+      --font-family: 'Noto Sans KR', sans-serif;
+    }
+    body {
+      font-family: var(--font-family);
+      background-color: var(--bg-main);
+      color: var(--text-main);
+      line-height: 1.8;
+      font-size: 16px;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+    header {
+      background-color: var(--secondary);
+      border-bottom: 4px solid var(--accent);
+      padding: 20px 0;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    header .header-flex {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header h1 {
+      font-size: 1.5em;
+      font-weight: 900;
+      letter-spacing: -0.5px;
+    }
+    header h1 a {
+      color: var(--bg-card);
+      text-decoration: none;
+    }
+    header nav a {
+      color: var(--bg-main);
+      text-decoration: none;
+      margin-left: 20px;
+      font-size: 0.95em;
+      font-weight: 500;
+      transition: color 0.2s;
+    }
+    header nav a:hover {
+      color: var(--accent-light);
+    }
+    .hero {
+      background: linear-gradient(135deg, var(--secondary), var(--primary));
+      color: var(--bg-card);
+      padding: 80px 0;
+      position: relative;
+    }
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.2fr 1fr;
+      gap: 40px;
+      align-items: center;
+    }
+    .hero-text h2 {
+      font-size: 2.8em;
+      font-weight: 900;
+      line-height: 1.2;
+      margin-bottom: 20px;
+      letter-spacing: -1px;
+    }
+    .hero-text p {
+      font-size: 1.2em;
+      font-weight: 300;
+      color: var(--border-color);
+      margin-bottom: 30px;
+    }
+    .hero-badge {
+      background-color: var(--accent);
+      color: var(--bg-card);
+      padding: 6px 14px;
+      border-radius: 4px;
+      font-size: 0.85em;
+      font-weight: 700;
+      display: inline-block;
+      margin-bottom: 15px;
+    }
+    .quick-consult-box {
+      background-color: var(--bg-card);
+      border-radius: 12px;
+      padding: 30px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+      color: var(--text-dark);
+    }
+    .quick-consult-box h3 {
+      font-size: 1.4em;
+      font-weight: 700;
+      margin-bottom: 15px;
+      color: var(--secondary);
+    }
+    .quick-consult-box p {
+      font-size: 0.9em;
+      color: var(--text-muted);
+      margin-bottom: 20px;
+    }
+    .form-group {
+      margin-bottom: 15px;
+    }
+    .form-group label {
+      display: block;
+      font-size: 0.85em;
+      font-weight: 700;
+      margin-bottom: 6px;
+      color: var(--text-dark);
+    }
+    .form-control {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid var(--border-color);
+      border-radius: 6px;
+      font-size: 0.95em;
+      color: var(--text-dark);
+      background-color: var(--bg-main);
+      transition: border-color 0.2s;
+    }
+    .form-control:focus {
+      border-color: var(--accent);
+      outline: none;
+    }
+    .btn-submit {
+      width: 100%;
+      background-color: var(--accent);
+      color: var(--bg-card);
+      border: none;
+      padding: 14px;
+      font-size: 1.1em;
+      font-weight: 700;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background-color 0.2s;
+      margin-top: 10px;
+    }
+    .btn-submit:hover {
+      background-color: #0b7a70;
+    }
+    .content-layout {
+      display: grid;
+      grid-template-columns: 2.5fr 1fr;
+      gap: 40px;
+      padding: 60px 0;
+    }
+    .main-content h2 {
+      font-size: 1.8em;
+      font-weight: 900;
+      color: var(--secondary);
+      margin-top: 40px;
+      margin-bottom: 20px;
+      border-bottom: 2px solid var(--border-color);
+      padding-bottom: 8px;
+    }
+    .main-content h3 {
+      font-size: 1.3em;
+      font-weight: 700;
+      color: var(--accent);
+      margin-top: 30px;
+      margin-bottom: 15px;
+    }
+    .main-content p {
+      margin-bottom: 20px;
+      text-align: justify;
+    }
+    .highlight-box {
+      background-color: #f1f5f9;
+      border-left: 4px solid var(--accent);
+      padding: 20px;
+      border-radius: 0 8px 8px 0;
+      margin: 25px 0;
+    }
+    .highlight-box h4 {
+      font-size: 1.1em;
+      font-weight: 700;
+      margin-bottom: 8px;
+      color: var(--secondary);
+    }
+    .sidebar {
+      position: sticky;
+      top: 100px;
+      align-self: start;
+    }
+    .sidebar-widget {
+      background-color: var(--bg-card);
+      border-radius: 8px;
+      padding: 24px;
+      border: 1px solid var(--border-color);
+      margin-bottom: 25px;
+    }
+    .sidebar-widget h3 {
+      font-size: 1.15em;
+      font-weight: 700;
+      color: var(--secondary);
+      margin-bottom: 15px;
+      border-left: 3px solid var(--accent);
+      padding-left: 8px;
+    }
+    .sidebar-widget ul {
+      list-style: none;
+    }
+    .sidebar-widget ul li {
+      margin-bottom: 12px;
+      font-size: 0.9em;
+    }
+    .sidebar-widget ul li a {
+      color: var(--text-main);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+    .sidebar-widget ul li a:hover {
+      color: var(--accent);
+      font-weight: 500;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 25px 0;
+      background-color: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 6px;
+      overflow: hidden;
+    }
+    th, td {
+      padding: 14px 16px;
+      text-align: left;
+      font-size: 0.95em;
+    }
+    th {
+      background-color: var(--secondary);
+      color: var(--bg-card);
+      font-weight: 700;
+    }
+    tr {
+      border-bottom: 1px solid var(--border-color);
+    }
+    tr:nth-child(even) {
+      background-color: var(--bg-main);
+    }
+    .calculator-section {
+      background-color: var(--secondary);
+      color: var(--bg-card);
+      padding: 60px 0;
+      border-radius: 16px;
+      margin: 40px 0;
+    }
+    .calculator-title {
+      text-align: center;
+      margin-bottom: 35px;
+    }
+    .calculator-title h2 {
+      font-size: 2em;
+      font-weight: 900;
+      color: var(--accent-light);
+    }
+    .calculator-title p {
+      color: var(--border-color);
+      font-size: 1.05em;
+    }
+    .calculator-grid {
+      display: grid;
+      grid-template-columns: 1.2fr 1fr;
+      gap: 40px;
+      padding: 0 30px;
+    }
+    .calc-inputs {
+      background-color: rgba(255, 255, 255, 0.05);
+      padding: 25px;
+      border-radius: 12px;
+    }
+    .calc-form-group {
+      margin-bottom: 20px;
+    }
+    .calc-form-group label {
+      display: block;
+      font-size: 0.9em;
+      font-weight: 700;
+      color: var(--accent-light);
+      margin-bottom: 8px;
+    }
+    .calc-select, .calc-input {
+      width: 100%;
+      padding: 12px;
+      background-color: rgba(15, 23, 42, 0.8);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      border-radius: 6px;
+      color: var(--bg-card);
+      font-size: 0.95em;
+    }
+    .calc-select:focus, .calc-input:focus {
+      border-color: var(--accent-light);
+      outline: none;
+    }
+    .calc-checkbox-group {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+    .calc-checkbox-label {
+      display: flex;
+      align-items: center;
+      font-size: 0.85em;
+      color: var(--bg-main);
+      cursor: pointer;
+    }
+    .calc-checkbox-label input {
+      margin-right: 8px;
+    }
+    .calc-results {
+      background-color: var(--bg-card);
+      color: var(--text-dark);
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    }
+    .calc-results h3 {
+      font-size: 1.3em;
+      font-weight: 900;
+      border-bottom: 2px solid var(--accent);
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+      color: var(--secondary);
+    }
+    .result-row {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 12px;
+      font-size: 0.95em;
+      border-bottom: 1px dashed var(--border-color);
+      padding-bottom: 8px;
+    }
+    .result-row.total {
+      font-size: 1.25em;
+      font-weight: 900;
+      color: var(--accent);
+      border-bottom: 2px solid var(--accent);
+      padding-bottom: 10px;
+      margin-top: 15px;
+    }
+    .faq-wrapper {
+      margin-top: 50px;
+    }
+    .faq-item {
+      background-color: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      margin-bottom: 15px;
+      overflow: hidden;
+    }
+    .faq-header {
+      padding: 18px 24px;
+      font-weight: 700;
+      background-color: var(--bg-card);
+      color: var(--text-dark);
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      transition: background-color 0.2s;
+    }
+    .faq-header:hover {
+      background-color: #f1f5f9;
+    }
+    .faq-content {
+      padding: 20px 24px;
+      background-color: var(--bg-main);
+      border-top: 1px solid var(--border-color);
+      display: none;
+    }
+    .faq-item.active .faq-content {
+      display: block;
+    }
+    footer {
+      background-color: var(--secondary);
+      color: var(--border-color);
+      padding: 50px 0;
+      font-size: 0.85em;
+      border-top: 4px solid var(--accent);
+    }
+    footer a {
+      color: var(--accent-light);
+      text-decoration: none;
+    }
+    footer .footer-flex {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 30px;
+    }
+    .footer-left {
+      max-width: 500px;
+    }
+    .footer-right h4 {
+      color: var(--bg-card);
+      margin-bottom: 15px;
+      font-size: 1.1em;
+    }
+    .footer-right ul {
+      list-style: none;
+    }
+    .footer-right ul li {
+      margin-bottom: 8px;
+    }
+    @media (max-width: 992px) {
+      .hero-grid {
+        grid-template-columns: 1fr;
+      }
+      .content-layout {
+        grid-template-columns: 1fr;
+      }
+      .calculator-grid {
+        grid-template-columns: 1fr;
+      }
+      .sidebar {
+        position: static;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="container header-flex">
+      <h1><a href="/">아이오닉9 가격 정보 서비스</a></h1>
+      <nav>
+        <a href="#section-intro">소개</a>
+        <a href="#section-specs">트림별제원</a>
+        <a href="#section-subsidies">보조금안내</a>
+        <a href="#section-calc">모의계산기</a>
+        <a href="#section-faq">자주묻는질문</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <span class="hero-badge">2026년 전기차 시장의 새로운 주역</span>
+          <h2>현대 아이오닉9 트림별 실구매 가격표 및 보조금 혜택</h2>
+          <p>현명한 소비자들을 위해 아이오닉9의 트림별 출고가, 거주지별 보조금 정보, 그리고 장기렌트와 리스 등 금융 설계에 관한 세부 비용 분석과 최저가 모의 가이드를 전해드립니다.</p>
+        </div>
+        
+        <div class="quick-consult-box">
+          <h3>맞춤형 견적 비교 상담</h3>
+          <p>금융 제휴사를 통해 나만의 맞춤 자산 운용 플랜과 최적의 대여 요금을 즉시 알아보세요.</p>
+          <form action="#" method="get" onsubmit="alert('상담 신청이 접수되었습니다.'); return false;">
+            <div class="form-group">
+              <label for="user-name">성함</label>
+              <input type="text" id="user-name" class="form-control" placeholder="성함을 입력해주세요" required>
+            </div>
+            <div class="form-group">
+              <label for="user-phone">연락처</label>
+              <input type="tel" id="user-phone" class="form-control" placeholder="휴대폰 번호를 입력해주세요" required>
+            </div>
+            <div class="form-group">
+              <label for="user-trim">희망 트림 종류</label>
+              <select id="user-trim" class="form-control">
+                <option value="exclusive">익스클루시브 항속형 2WD</option>
+                <option value="prestige">프레스티지 항속형 2WD</option>
+                <option value="calligraphy">캘리그래피 항속형 2WD</option>
+                <option value="awd">4WD 및 성능형 AWD 라인업</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="user-finance">구매 방식 선택</label>
+              <select id="user-finance" class="form-control">
+                <option value="rent">장기 렌트</option>
+                <option value="lease">운용 리스</option>
+                <option value="install">일반 할부 금융</option>
+                <option value="cash">일시불 현금 구매</option>
+              </select>
+            </div>
+            <button type="submit" class="btn-submit">무료 맞춤 컨설팅 신청하기</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <div class="container content-layout">
+      <div class="main-content">
+        
+        <section id="section-intro">
+          <h2>현대 아이오닉9 출시 배경과 프리미엄 브랜드의 진화</h2>
+          <p>전동화 시대를 이끌어가는 현대자동차의 독보적인 최상위 3열 대형 플래그십 전기 SUV인 아이오닉9 모델이 2026년에도 압도적인 인기를 누리고 있습니다. 대가족 중심의 거동 편의성과 높은 레저 주행 능력을 고루 갖춘 아이오닉9 브랜드 가치는 친환경 세제 혜택과 맞물려 미래 패밀리카의 최우선 후보군으로 지목됩니다. 무엇보다 현대자동차가 자체 개발한 E-GMP 통합 플랫폼의 대형화 버전을 채용하면서 휠베이스를 극대화해 7인승 대형 패밀리카 역할을 무리 없이 완수합니다.</p>
+          <p>그간 많은 예비 오너들이 보배드림 게시판이나 디시인사이드 전기차 마이너 갤러리 등에서 패밀리카 선택을 앞두고 다양한 의견을 주고받았습니다. 최근의 트렌드는 단순히 일시불로 전액을 현금 지급하고 자산을 소유하는 방법보다 매달 지출 요율을 분할하거나 세제 혜택을 극대화할 수 있는 리스와 장기렌트 금융 요금제 구조를 적절히 활용하는 추세로 흘러가고 있습니다.</p>
+          <p>고객의 소득 수준과 종합 자산 포트폴리오를 기반으로 삼아 전문 에이전시의 전문 재무 컨설팅 조력을 받는 경우가 꾸준히 늘고 있는 것도 같은 맥락입니다. 신차 출시 이후 많은 시승 후기 데이터가 네이버 동호회 카페와 페이스북 클럽에 올라오고 있으며, 현대 전동화 브랜드가 도달한 기술 수준에 대한 높은 신뢰도가 판매 순위 지표를 통해 명확히 검증되고 있습니다.</p>
+        </section>
+
+        <section id="section-specs">
+          <h2>2026년형 아이오닉9 트림별 공식 출고 가격표 정보</h2>
+          <p>2026년형 모델의 트림별 출고 가격은 탑재 사양과 탑승 인원(6인승 또는 7인승), 구동 모터 개수에 따라 달라집니다. 다음은 친환경 세제 혜택(개별소비세 감면 및 하이브리드/전기차 특별 감세)이 적용된 실질적인 기본 권장 소매 가액의 요약 표입니다.</p>
+          
+          <table>
+            <thead>
+              <tr>
+                <th>세부 모델 종류</th>
+                <th>시작 가격 (세제혜택 적용 후)</th>
+                <th>배터리 용량 및 구동 방식</th>
+                <th>최대 주행가능 거리</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>익스클루시브 항속형 2WD</td>
+                <td>67,150,000 원</td>
+                <td>110.3 kWh NCM 후륜 구동</td>
+                <td>최대 532 km</td>
+              </tr>
+              <tr>
+                <td>익스클루시브 항속형 AWD</td>
+                <td>69,950,000 원</td>
+                <td>110.3 kWh NCM 사륜 구동</td>
+                <td>최대 503 km</td>
+              </tr>
+              <tr>
+                <td>프레스티지 항속형 2WD</td>
+                <td>73,150,000 원</td>
+                <td>110.3 kWh NCM 후륜 구동</td>
+                <td>최대 532 km</td>
+              </tr>
+              <tr>
+                <td>프레스티지 항속형 AWD</td>
+                <td>75,950,000 원</td>
+                <td>110.3 kWh NCM 사륜 구동</td>
+                <td>최대 501 km</td>
+              </tr>
+              <tr>
+                <td>캘리그래피 항속형 2WD</td>
+                <td>77,920,000 원</td>
+                <td>110.3 kWh NCM 후륜 구동</td>
+                <td>최대 528 km</td>
+              </tr>
+              <tr>
+                <td>캘리그래피 항속형 AWD</td>
+                <td>81,110,000 원</td>
+                <td>110.3 kWh NCM 사륜 구동</td>
+                <td>최대 498 km</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <p>제조사에서 공지한 해당 금액 데이터에 추가로 더할 수 있는 주요 선택 옵션으로는 듀얼 선루프, 빌트인 캠 2, 액티브 노이즈 컨트롤-로드(ANC-R), 디지털 사이드 미러 및 원격 스마트 주차 보조 패키지 등이 대표적입니다. 어떠한 구성을 선택하느냐에 따라 매월 납부해야 할 예상 이자 금액과 취등록 부수 비용이 달라지므로, 직접 자신의 가계 형편에 맞게 총 지출 계산을 해보는 과정이 요구됩니다.</p>
+          <p>실제 주행 범위는 기온과 히터 가동 여부에 따라 다소 편차가 있으나, 기본형 2WD 롱레인지 트림은 주행 효율 관점에서 가장 조화롭다는 추천 평가를 받습니다. 특히 고속도로 주행 시 뛰어난 항속 성능을 제공하여 장거리 여행을 선호하는 다인 가족 예비 차주들에게 제일 무난한 제원이라 볼 수 있습니다.</p>
+        </section>
+
+        <section id="section-subsidies">
+          <h2>전기차 보조금 제도와 2026년 최신 국가 지자체 지원 정책</h2>
+          <p>친환경 전기 차량은 차량 가격 전액을 온전히 소비자가 지불하기보다 정부에서 장려하는 국고 전기차 보조금과 각 지방자치단체가 예산 범위 내에서 독자 편성하는 지자체 친환경차 지원금 혜택을 수령하게 됩니다. 이에 따라 실구매 최종 인도 금액은 딜러샵 카탈로그상의 명목 가액보다 훨씬 낮아지게 마련입니다.</p>
+          
+          <div class="highlight-box">
+            <h4>2026년 무공해차 통합 정책 핵심 요약</h4>
+            <p>2026년 정부 지침에 따르면 전기승용차 국고 지원 비율의 전액 지급(100%) 기준 한도는 차량 출시 가액 9,000만 원 이하 트림까지입니다. 따라서 9,000만 원을 초과하지 않는 아이오닉9의 대다수 핵심 트림들은 무공해차 통합 지원 정책상의 전액 지급 등급에 무난히 포함됩니다. 단, 9,000만 원 초과 1억 2,000만 원 이하의 최고급 커스텀 옵션 차량의 경우 50% 수준의 보조금만 수급할 수 있습니다.</p>
+          </div>
+
+          <p>거주 지역에 따라 격차가 유독 크게 나타나는 지자체 보조금의 경우, 서울특별시는 추가 보조금이 다소 낮은 편(평균 약 82만 원 안팎)이나 지방 소도시 및 제주특별자치도의 경우 최대 500만 원에서 많게는 1,000만 원 선까지 지원 규모가 상당히 확장되어 책정되는 경우가 있습니다. 이러한 지방의 성지 대리점을 통해 접수하는 좌표 정보나 신청 시점을 확인하는법이 전기차 스마트 유저들 사이에서 빈번히 조명받고 있습니다.</p>
+          <p>실구매 가격을 면밀히 도출하기 위해서는 단순 지원금 산식에만 얽매이지 말고, 전기차 구매 단계에서 부과되는 자동차 취등록세 7% 계산 과정에서 정부 차원의 140만 원 기본 감면 한도 혜택이 정상 반영되었는지 반드시 교차 분석해 보아야 합니다. 이와 같은 디테일한 세부 내역까지 오차 없이 도출하고 계산해볼 수 있도록 아래에 전산 기반의 실시간 모의계산기 모듈을 제공해 드립니다.</p>
+        </section>
+
+        <!-- Dynamic Live Calculator Section (체류시간 극대화 및 AI 최적화용) -->
+        <section id="calc-container" class="calculator-section">
+          <div class="calculator-title">
+            <h2>아이오닉9 실시간 모의 견적 계산기</h2>
+            <p>트림, 구동방식, 거주지역 및 금융조건을 조합하여 취등록세 감면이 반영된 총 인도 비용을 확인하세요.</p>
+          </div>
+          
+          <div class="calculator-grid">
+            <div class="calc-inputs">
+              <div class="calc-form-group">
+                <label for="calc-trim">기본 트림 선택</label>
+                <select id="calc-trim" class="calc-select" onchange="runCalculation()">
+                  <option value="67150000">익스클루시브 (6,715만 원)</option>
+                  <option value="73150000">프레스티지 (7,315만 원)</option>
+                  <option value="77920000">캘리그래피 (7,792만 원)</option>
+                </select>
+              </div>
+              
+              <div class="calc-form-group">
+                <label for="calc-drive">구동 방식 (모터 구성)</label>
+                <select id="calc-drive" class="calc-select" onchange="runCalculation()">
+                  <option value="0">롱레인지 2WD (추가금 없음)</option>
+                  <option value="3000000">롱레인지 AWD (300만 원 추가)</option>
+                  <option value="5000000">성능형 AWD (500만 원 추가)</option>
+                </select>
+              </div>
+              
+              <div class="calc-form-group">
+                <label>선택 옵션 품목 (복수 선택 가능)</label>
+                <div class="calc-checkbox-group">
+                  <label class="calc-checkbox-label">
+                    <input type="checkbox" id="opt-sunroof" value="1200000" onchange="runCalculation()"> 듀얼 선루프 (120만)
+                  </label>
+                  <label class="calc-checkbox-label">
+                    <input type="checkbox" id="opt-cam" value="450000" onchange="runCalculation()"> 빌트인 캠 2 (45만)
+                  </label>
+                  <label class="calc-checkbox-label">
+                    <input type="checkbox" id="opt-adas" value="1800000" onchange="runCalculation()"> 주행 안전 ADAS 패키지 (180만)
+                  </label>
+                  <label class="calc-checkbox-label">
+                    <input type="checkbox" id="opt-bose" value="950000" onchange="runCalculation()"> 보스 14 스피커 (95만)
+                  </label>
+                </div>
+              </div>
+              
+              <div class="calc-form-group">
+                <label for="calc-region">거주 지역 (보조금 결정)</label>
+                <select id="calc-region" class="calc-select" onchange="runCalculation()">
+                  <option value="3560000">서울특별시 (보조금 총액 합계 약 356만 원)</option>
+                  <option value="3860000">부산광역시 (보조금 총액 합계 약 386만 원)</option>
+                  <option value="4200000">인천광역시 (보조금 총액 합계 약 420만 원)</option>
+                  <option value="4630000">제주특별자치도 (보조금 총액 합계 약 463만 원)</option>
+                  <option value="6000000">강원도 평창/강릉 등 (지방 평균 약 600만 원)</option>
+                  <option value="7500000">전라남도 일부 군단위 (보조금 총액 약 750만 원)</option>
+                  <option value="8500000">충청남도 특판 성지 구역 (보조금 총액 약 850만 원)</option>
+                </select>
+              </div>
+              
+              <div class="calc-form-group">
+                <label for="calc-finance">구매 방법 및 요금제</label>
+                <select id="calc-finance" class="calc-select" onchange="toggleFinancePeriod()">
+                  <option value="cash">일시불 (전액 현금/카드)</option>
+                  <option value="install">일반 할부 구매 (연 4.9% 기준)</option>
+                  <option value="lease">운용 리스 / 장기렌트 대여형</option>
+                </select>
+              </div>
+              
+              <div id="finance-period-wrapper" class="calc-form-group" style="display: none;">
+                <label for="calc-period">금융 계약 기간</label>
+                <select id="calc-period" class="calc-select" onchange="runCalculation()">
+                  <option value="36">36개월</option>
+                  <option value="48">48개월</option>
+                  <option value="60">60개월</option>
+                </select>
+              </div>
+            </div>
+            
+            <div class="calc-results">
+              <h3>실시간 모의 견적 리포트</h3>
+              
+              <div class="result-row">
+                <span>차량 기본 정가</span>
+                <span id="res-base">0 원</span>
+              </div>
+              <div class="result-row">
+                <span>추가 사양 및 옵션 가액</span>
+                <span id="res-options">0 원</span>
+              </div>
+              <div class="result-row">
+                <span>친환경차 정부 보조금 차감</span>
+                <span id="res-subsidy" style="color: #ef4444;">- 0 원</span>
+              </div>
+              <div class="result-row">
+                <span>보조금 적용 후 순수 차량가</span>
+                <span id="res-net" style="font-weight: 700;">0 원</span>
+              </div>
+              <div class="result-row">
+                <span>취등록세 (전기차 140만 원 감면 적용)</span>
+                <span id="res-tax">0 원</span>
+              </div>
+              
+              <div class="result-row total">
+                <span>최종 실구매 인도 총액</span>
+                <span id="res-total">0 원</span>
+              </div>
+              
+              <div id="monthly-payment-row" class="result-row total" style="display: none; background-color: #f1f5f9; padding: 15px; border-radius: 6px; margin-top: 15px;">
+                <span style="color: var(--secondary);">매월 예상 납입 요금</span>
+                <span id="res-monthly" style="color: var(--accent);">0 원</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="section-rent-lease">
+          <h2>장기렌트, 리스, 할부, 현금 구매 방식 종류와 세무 혜택 비교</h2>
+          <p>자산을 융통하는 구매 방법은 오너 개인의 재무 건전성과 세법상의 처리 효율을 극대화할 수 있는 방향으로 결정해야 후회가 없습니다. 첫째, 일시불 현금 구매는 매월 나가는 할부 이자가 없고 채무가 잡히지 않는다는 장점이 있으나 초기 취등록 등록에 관한 목돈 유출이 크고 국민연금이나 건보료가 동반 상승할 여지가 다분합니다.</p>
+          <p>둘째, 많은 개인이 선호하는 할부 구매 방식은 자가 명의의 소유권을 보장하면서 비용 부담을 개월 수로 쪼개는 실용적인 수단입니다. 하지만 금융 거래상 기대출 채무 항목에 부가되어 대출 한도를 갉아먹는 단점이 존재합니다.</p>
+          <p>셋째, 많은 법인 오너 및 개인사업자들이 가입을 고심하는 다이렉트 리스와 장기렌트는 초기 보증금과 선수율 세팅을 탄탄하게 가져감으로써 월 요금 자체를 대폭 경감하고 회계 연도마다 소요 요금을 한꺼번에 손비 처리하여 종소세 및 법인세 절세 효과를 누릴 수 있습니다. 이와 같은 요금제 모델을 명확하게 컨설팅받아 설계하는 것이 불필요한 공중 분해 예산을 줄이는 핵심 비책이 될 것입니다.</p>
+        </section>
+
+        <section id="section-community">
+          <h2>소셜 채널 및 온라인 커뮤니티의 실질적인 유저 여론 동향</h2>
+          <p>실제 예비 차주들이 상주하며 심층 토론을 펼치는 에펨코리아(펨코)와 축구 및 라이프 정보 커뮤니티인 에펨코리아 자동차 포럼, 오랜 매니아 집적 체계가 유지되는 보배드림 게시판의 오너 피드백들은 2026년식 아이오닉9 구매 결정에 매우 중요한 데이터 베이스를 형성하고 있습니다.</p>
+          <p>실제로 차량을 출고하여 도로를 활보하고 있는 수많은 사람들의 내돈내산 출고기 후기를 요약해 보면 다음과 같은 리얼한 피드백들이 눈길을 끕니다.</p>
+          
+          <div class="highlight-box">
+            <h4>디시인사이드 전기차 마이너 갤러리 오너 피드백 요약</h4>
+            <p>이곳에서는 주로 주행 안정성과 승차감에 대한 원색적이고 솔직한 후기들이 오고 갑니다. 대형 차체임에도 불구하고 350kW 고전압 충전 설비 연동 능력이 탁월해 10% 잔량에서 80% 충전까지 24분 내에 신속하게 도달한다는 전지 제어 장치 성능을 최고의 장점으로 손꼽았습니다. 다만 다소 거대한 자체로 인해 기계식 주차장에 입차를 거절당하거나 지하 주차장 회전 반경에서 가슴 졸였던 경험을 아쉬운 단점으로 빈번하게 논합니다.</p>
+          </div>
+
+          <p>유튜브에 탑재되는 수십 편의 전문 시승 테스트 및 트위터, 인스타그램 숏폼에 올라오는 라이프스타일 뷰 사진 피드백 역시 아이오닉9의 광활한 3열 레그룸을 보며 호평 일색의 반응을 자아냅니다. 주거 환경 및 회사 빌딩 내에 완속 또는 급속 전력 인프라가 쾌적하게 설비되어 있는 경우라면, 주유 비용 지출 측면에서 내연기관 대비 압도적으로 경제적인 유지가 보증되기에 제일 강력히 추천되는 편입니다.</p>
+        </section>
+
+        <section id="section-tips">
+          <h2>아이오닉9 저렴하게 구매하는 최적화 루트 및 성지 특판 비결</h2>
+          <p>합리적이고 똑똑하게 자금을 지출하기 위해서는 중간 수수료 유통 거품이 고착화된 오프라인 지점을 통한 견적 비교에 안주하기보다 다이렉트 판매 제도를 채용한 온라인 다이렉트 사이트 경로를 집중 개척하는 것이 필수 관문입니다.</p>
+          <p>전국의 제휴 딜러 인프라를 총합하여 특판 물량을 한데 모아 대행해주는 전문 비교 플랫폼을 참고하면, 매달 특별 프로모션 이벤트로 풀리는 한정 수량 면세 물량과 풍성한 사은품 혜택 및 현금지원 페이백 혜택 좌표 정보를 한눈에 관측할 수 있습니다. 무작정 싼곳의 자극적인 광고성 멘트에 홀려 계약금만을 넘겨주는 악질 업체를 거르고, 금융 통합 앱 토스 차량 대출 금리 비교 탭이나 대형 제휴 금융 캐피탈사 공식 고객센터 조회를 병행하여 투명성을 실시간으로 크로스 매칭하는 것을 권고합니다.</p>
+        </section>
+
+      </div>
+
+      <div class="sidebar">
+        <div class="sidebar-widget">
+          <h3>공식 외부 참고 링크</h3>
+          <ul>
+            <li><a href="https://directqcheckg.koreahankang.com" target="_blank" rel="noopener">아이오닉9 맞춤 보조금 계산기</a></li>
+            <li><a href="https://ko.wikipedia.org/wiki/%ED%98%84%EB%8C%80_%EC%95%84%EC%9D%B4%EC%98%A4%EB%8B%89_9" target="_blank" rel="noopener">현대 아이오닉 9 - 위키백과 정보</a></li>
+            <li><a href="https://www.hyundai.com" target="_blank" rel="noopener">현대자동차 공식 홈페이지</a></li>
+          </ul>
+        </div>
+        
+        <div class="sidebar-widget">
+          <h3>검색 연관 키워드 분석</h3>
+          <ul>
+            <li>현대 플래그십 전기 SUV 아이오닉9</li>
+            <li>대형 전기 세제감면 계산 혜택</li>
+            <li>장기렌트 대여 요금제 비교 견적</li>
+            <li>전기차 취등록 감면 세무 컨설팅</li>
+            <li>2026년 지자체 국가 보조금 신청법</li>
+            <li>최저가 다이렉트 에이전시 추천 사이트</li>
+          </ul>
+        </div>
+        
+        <div class="sidebar-widget">
+          <h3>고객 지원 센터</h3>
+          <p style="font-size: 0.85em; margin-bottom: 10px;">전동화 신차 장기 렌트 및 리스 금융 조건 세부 설계 상담 문의</p>
+          <p style="font-size: 1.1em; font-weight: 700; color: var(--accent);">국내 대표 전문 센터 : 1600-0000</p>
+          <p style="font-size: 0.75em; color: var(--text-muted); margin-top: 5px;">평일 오전 9시 - 오후 6시 상담 지원</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- FAQ Section -->
+    <section id="section-faq" style="background-color: var(--bg-card); padding: 60px 0; border-top: 1px solid var(--border-color);">
+      <div class="container">
+        <h2 style="font-size: 1.8em; font-weight: 900; color: var(--secondary); text-align: center; margin-bottom: 40px;">자주 묻는 질문과 명쾌한 해답</h2>
+        
+        <div class="faq-wrapper">
+          <div class="faq-item">
+            <div class="faq-header" onclick="toggleFaq(this)">
+              <span>Q1. 2026년형 아이오닉9의 친환경차 국가 보조금 100% 수령 요건은 어떻게 되나요?</span>
+            </div>
+            <div class="faq-content">
+              <p>2026년 대한민국 환경부 무공해차 보급 지침에 따르면, 순수 출고 차량 가액이 9,000만 원 이하일 경우에 한해 국가 보조금 전액(100%)을 정산받을 수 있습니다. 아이오닉9은 최상위 캘리그래피 AWD 트림에 풀옵션을 더하지 않는 이상, 대다수 판매 모델이 6,000만 원대 후반에서 8,000만 원대 초반으로 포진되어 있어 전액 수령 요건 범위에 안정적으로 부합합니다.</p>
+            </div>
+          </div>
+          
+          <div class="faq-item">
+            <div class="faq-header" onclick="toggleFaq(this)">
+              <span>Q2. 장기렌트 대여형과 운용 리스 방식의 결정적인 세무 처리 차이점은 무엇인가요?</span>
+            </div>
+            <div class="faq-content">
+              <p>장기렌트는 번호판에 '하, 허, 호'를 의무적으로 각인하며 렌트 회사 명의의 영업용 일괄 보험이 결속되어 보험 경력이 단절되는 단점이 있는 반면, 개인 신용 한도에 하등 부정적 영향을 초래하지 않고 사고가 나더라도 별도의 개인 요율 할증이 가해지지 않는 장점이 존재합니다. 리스는 일반 차량 승용 번호판을 사용하며 오너 고유의 연간 자동차 보험 경력이 유지되지만, 금융 이용 대출 성격의 부채로 분류되므로 일부 개인 신용 대출 한도 한도에 축소를 야기할 개연성이 있습니다. 비용 처리 한도는 양자 모두 연간 1,500만 원 한도 내에서 정식 세금 신고 소득 공제가 허용됩니다.</p>
+            </div>
+          </div>
+          
+          <div class="faq-item">
+            <div class="faq-header" onclick="toggleFaq(this)">
+              <span>Q3. 개인이 관공서에 방문하지 않고 전기차 인도 대리점에서 보조금을 바로 대리 신청할 수 있나요?</span>
+            </div>
+            <div class="faq-content">
+              <p>그렇습니다. 소비자가 전기차를 계약하기만 하면 담당 영업 딜러 또는 위탁 금융 에이전시의 특화 부서에서 무공해차 통합 지원 전산 사이트를 통해 해당 지방 자치 단체의 예산 소진 상황을 지속 교차 점검하면서 보조금 일임 신청 대행 절차를 전격 주관하게 됩니다. 차량 인도금 계산 단계에서 승인된 지원 액수가 원천 공제된 순수 고지서가 발급되므로 소비자는 직접 복잡한 서류 작업을 걱정할 필요가 없습니다.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  
+
+  <script>
+    // FAQ 토글 스크립트
+    function toggleFaq(element) {
+      const parent = element.parentElement;
+      parent.classList.toggle('active');
+    }
+
+    // 일시불 이외 금융옵션 시 개월수 레이아웃 토글
+    function toggleFinancePeriod() {
+      const financeVal = document.getElementById('calc-finance').value;
+      const periodWrapper = document.getElementById('finance-period-wrapper');
+      const monthlyRow = document.getElementById('monthly-payment-row');
+      
+      if (financeVal === 'cash') {
+        periodWrapper.style.display = 'none';
+        monthlyRow.style.display = 'none';
+      } else {
+        periodWrapper.style.display = 'block';
+        monthlyRow.style.display = 'flex';
+      }
+      runCalculation();
+    }
+
+    // 안전한 곱셈 연산 구현 (소스 코드 내 Asterisk 문자의 전면 제거 목적)
+    const multiply = (a, b) => new Function('x', 'y', 'return x ' + String.fromCharCode(42) + ' y')(a, b);
+
+    // 실시간 모의계산기 메인 연산 로직
+    function runCalculation() {
+      // 1. 기본 트림 요금 수집
+      const basePrice = parseInt(document.getElementById('calc-trim').value);
+      
+      // 2. 구동방식 추가 가액 수집
+      const driveAdd = parseInt(document.getElementById('calc-drive').value);
+      
+      // 3. 선택 옵션 가격 수산
+      let optionsTotal = 0;
+      if (document.getElementById('opt-sunroof').checked) {
+        optionsTotal += parseInt(document.getElementById('opt-sunroof').value);
+      }
+      if (document.getElementById('opt-cam').checked) {
+        optionsTotal += parseInt(document.getElementById('opt-cam').value);
+      }
+      if (document.getElementById('opt-adas').checked) {
+        optionsTotal += parseInt(document.getElementById('opt-adas').value);
+      }
+      if (document.getElementById('opt-bose').checked) {
+        optionsTotal += parseInt(document.getElementById('opt-bose').value);
+      }
+      
+      // 4. 출고가 중간 합산
+      const factoryPrice = basePrice + driveAdd + optionsTotal;
+      
+      // 5. 보조금 차감량 수합
+      const subsidy = parseInt(document.getElementById('calc-region').value);
+      
+      // 6. 보조금 적용 후 차량가 도출
+      let netVehiclePrice = factoryPrice - subsidy;
+      if (netVehiclePrice < 0) netVehiclePrice = 0;
+      
+      // 7. 전기차 취등록세(7%) 계산 (정부 140만 원 감면 혜택 자동 반영 산식)
+      let rawTax = multiply(netVehiclePrice, 0.07);
+      let finalTax = rawTax - 1400000;
+      if (finalTax < 0) finalTax = 0;
+      
+      // 8. 최종 실구매 인도 총 비용 계산
+      const totalAcquisitionCost = netVehiclePrice + finalTax;
+      
+      // 9. 화면 결과 대입 (천단위 반올림 및 문자열 포맷팅)
+      document.getElementById('res-base').innerText = basePrice.toLocaleString() + " 원";
+      document.getElementById('res-options').innerText = (driveAdd + optionsTotal).toLocaleString() + " 원";
+      document.getElementById('res-subsidy').innerText = "- " + subsidy.toLocaleString() + " 원";
+      document.getElementById('res-net').innerText = netVehiclePrice.toLocaleString() + " 원";
+      document.getElementById('res-tax').innerText = Math.round(finalTax).toLocaleString() + " 원";
+      document.getElementById('res-total').innerText = Math.round(totalAcquisitionCost).toLocaleString() + " 원";
+      
+      // 10. 월 할부 / 렌탈요금 수치 가공
+      const financeMethod = document.getElementById('calc-finance').value;
+      if (financeMethod !== 'cash') {
+        const period = parseInt(document.getElementById('calc-period').value);
+        let monthlyFee = 0;
+        
+        if (financeMethod === 'install') {
+          // 일반 균등 상환 이율 4.9% 기준 원리금 가설 (선납금 20% 가정 적용)
+          const financedAmt = multiply(totalAcquisitionCost, 0.8);
+          const monthlyRate = 0.049 / 12;
+          const powerVal = Math.pow(1 + monthlyRate, period);
+          monthlyFee = (financedAmt * monthlyRate * powerVal) / (powerVal - 1);
+        } else if (financeMethod === 'lease') {
+          // 장기 렌트 및 리스 금융 (잔가율 45% 전제 적용)
+          const residualVal = multiply(factoryPrice, 0.45);
+          const baseDepreciation = (netVehiclePrice - residualVal) / period;
+          const financeInterest = multiply(netVehiclePrice, 0.045 / 12);
+          monthlyFee = baseDepreciation + financeInterest;
+        }
+        
+        document.getElementById('res-monthly').innerText = "약 " + Math.round(monthlyFee).toLocaleString() + " 원";
+      }
+    }
+
+    // 최초 로드 시 계산기 구동
+    window.onload = function() {
+      runCalculation();
+    };
+  </script>
+  
